@@ -9,11 +9,10 @@ module.exports = function({theme, type}){
     let cssSelector = `.${type}`;
 
     // EXTRACT DECLARATIONS FOR cssSelector FROM cssFilePath AND RETURN AS STRING
-
     let myCss = fs.readFileSync(cssFilePath);
     let response = postcss([select([cssSelector])]).process(myCss).css
-    response = response.replace(new RegExp(`${cssSelector}\s*{`), '');
-    response = response.replace(new RegExp(`}\s*$`));
-    console.log(response);
+    response = response.replace(new RegExp(`${cssSelector} {`), '');
+    response = response.replace(new RegExp(`}$`, 'm'), '');
+    response = response.trim();
     return response;
 }
