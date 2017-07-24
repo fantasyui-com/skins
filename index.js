@@ -5,8 +5,7 @@ const postcss = require('postcss');
 const select = require('postcss-select')
 
 module.exports = function({theme, type}){
-
-    let cssFilePath = `./dist/${theme}.css`;
+    let cssFilePath = path.join(__dirname, 'dist', `${theme}.css`);
     let cssSelector = `.${type}`;
 
     // EXTRACT DECLARATIONS FOR cssSelector FROM cssFilePath AND RETURN AS STRING
@@ -15,9 +14,4 @@ module.exports = function({theme, type}){
     let response = postcss([select([cssSelector])]).process(myCss).css
     console.log(response);
     return response;
-    // return `
-    //   border: 1px solid orange;
-    //   background-color: red;
-    // `;
-
 }
