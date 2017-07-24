@@ -12,6 +12,8 @@ module.exports = function({theme, type}){
 
     let myCss = fs.readFileSync(cssFilePath);
     let response = postcss([select([cssSelector])]).process(myCss).css
+    response = response.replace(new Regexp(`${cssSelector}\s*{`), '');
+    response = response.replace(new Regexp(`}\s*$`));
     console.log(response);
     return response;
 }
