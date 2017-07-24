@@ -1,0 +1,50 @@
+
+html, input, button, .cgui-execute, .cgui-command {
+ font-size: 18px;
+ color: #FFFFFF;
+}
+
+.cgui-left, .cgui-right {}
+
+.cgui-command {}
+
+.cgui-execute {}
+
+html, input, button, .cgui-execute, .cgui-command {
+ font-family: 'Open Sans Condensed', sans-serif;
+}
+
+html {
+  min-height: 100vh;
+}
+
+.cgui {
+  padding: 1rem;
+}
+
+.cgui-container {
+  padding: 1rem;
+}
+
+.cgui-execute {
+  padding: .5rem
+
+}
+
+.cgui-command {
+  margin-bottom: 1rem;
+  padding: .5rem;
+  width: 90%;
+}
+
+.cgui-left {
+  margin-bottom: 1rem;
+  margin-right: 5rem;
+  padding: 2rem 1rem;
+}
+
+.cgui-right {
+  margin-bottom: 1rem;
+  margin-left: 5rem;
+  padding: 2rem 1rem;
+}

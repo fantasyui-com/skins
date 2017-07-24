@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/fantasyui-com/skins/issues"
   },
-  "homepage": "https://github.com/fantasyui-com/skins#readme"
+  "homepage": "https://github.com/fantasyui-com/skins#readme",
+  "dependencies": {
+    "autoprefixer": "^7.1.2",
+    "postcss": "^6.0.8",
+    "postcss-color-function": "^4.0.0",
+    "precss": "^2.0.0"
+  }
 }
