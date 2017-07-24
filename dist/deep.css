@@ -1,65 +1,36 @@
-html, input, button, .cgui-execute, .cgui-command {
+html, input, button, .input, .button {
  font-size: 18px;
  color: #C2491B;
 }
-.cgui-muted {
+.label {
   color: rgb(206, 109, 73);
 }
-html {
+.page {
   background: linear-gradient(45deg, #002B36, #073642);
 }
-.cgui-left, .cgui-right {
+.component {
   text-shadow: 1px 1px 1px #000;
   border: 2px solid #299C94;
   background: linear-gradient(45deg, rgba(0,0,0,0.6), rgba(0,0,0,0.2));
 }
-.cgui-command {
+.input {
   text-shadow: 1px 1px 1px #000;
   border-radius: 2px;
   border: 2px solid #299C94;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.2)));
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2));
 }
-.cgui-execute {
+.button {
   text-shadow: 1px 1px 1px #000;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.2)));
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.2));
   border: 2px solid #299C94;
 }
-.cgui-execute:hover {
+.button:hover {
   border: 2px solid rgb(62, 166, 159);
 }
-.cgui-execute:active, .cgui-execute:focus {
+.button:active, .button:focus {
   border: 2px solid rgb(84, 176, 169);
 }
-html, input, button, .cgui-execute, .cgui-command {
- font-family: 'Open Sans Condensed', sans-serif;
-}
-html {
-  min-height: 100vh;
-}
-.cgui {
-  padding: 1rem;
-}
-.cgui-container {
-  padding: 1rem;
-}
-.cgui-execute {
-  padding: .5rem
-
-}
-.cgui-command {
-  margin-bottom: 1rem;
-  padding: .5rem;
-  width: 90%;
-}
-.cgui-left {
-  margin-bottom: 1rem;
-  margin-right: 5rem;
-  padding: 2rem 1rem;
-}
-.cgui-right {
-  margin-bottom: 1rem;
-  margin-left: 5rem;
-  padding: 2rem 1rem;
+.container {
 }

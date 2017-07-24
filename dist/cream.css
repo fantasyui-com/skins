@@ -1,14 +1,14 @@
-html, input, button, .cgui-execute, .cgui-command {
+html, input, button, .input, .button {
  font-size: 18px;
  color: #75848A;
 }
-.cgui-muted {
+.label {
   color: #DE6016;
 }
-html {
+.page {
   background: linear-gradient(45deg, #FDF6E3, #EEE8D5);
 }
-.cgui-left, .cgui-right {
+.component {
   text-shadow: 1px 1px 1px white;
 
   border: 2px solid #E5605A;
@@ -16,10 +16,7 @@ html {
 
   background: linear-gradient(45deg, #ded9c9, #c8c3b5);
 }
-.cgui-left {
-  color: #4A8BD3;
-}
-.cgui-command {
+.input {
   text-shadow: 1px 1px 1px white;
 
   border: 2px solid #E5605A;
@@ -29,7 +26,7 @@ html {
 
   background: linear-gradient(#ded9c9, #c8c3b5);
 }
-.cgui-execute {
+.button {
   -webkit-transition: 1s all;
   transition: 1s all;
   text-shadow: 1px 1px 1px white;
@@ -37,41 +34,12 @@ html {
   background: linear-gradient(#ded9c9, #c8c3b5);
   border: 2px solid #E5605A;
 }
-.cgui-execute:hover {
+.button:hover {
   border: 2px solid rgb(232, 112, 107);
   border-radius: 8px;
 }
-.cgui-execute:active, .cgui-execute:focus {
+.button:active, .button:focus {
   border: 2px solid rgb(234, 128, 123);
 }
-html, input, button, .cgui-execute, .cgui-command {
- font-family: 'Open Sans Condensed', sans-serif;
-}
-html {
-  min-height: 100vh;
-}
-.cgui {
-  padding: 1rem;
-}
-.cgui-container {
-  padding: 1rem;
-}
-.cgui-execute {
-  padding: .5rem
-
-}
-.cgui-command {
-  margin-bottom: 1rem;
-  padding: .5rem;
-  width: 90%;
-}
-.cgui-left {
-  margin-bottom: 1rem;
-  margin-right: 5rem;
-  padding: 2rem 1rem;
-}
-.cgui-right {
-  margin-bottom: 1rem;
-  margin-left: 5rem;
-  padding: 2rem 1rem;
+.container {
 }
