@@ -34,3 +34,6 @@ html, input, button, .input, .button {
 }
 .container {
 }
+.label {
+  cursor: default;
+}

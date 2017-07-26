@@ -6,6 +6,7 @@ const autoprefixer = require('autoprefixer');
 const colorFunction = require("postcss-color-function")
 
 const spacers = require("spacers");
+const photograph = require("photograph");
 
 fs.readdir( path.join(__dirname, 'src', 'lib'), (err, files) => {
   files.forEach(fileName=>{
@@ -18,6 +19,7 @@ fs.readdir( path.join(__dirname, 'src', 'lib'), (err, files) => {
     });
 
     spacers.writeFile(`dist/spacers.css`);
+    photograph.writeFile(`dist/photograph.css`);
 
     fs.readFile(`src/style.css`, (err, css) => {
       css = `@import "./lib/${fileName}";\n\n` + css;
