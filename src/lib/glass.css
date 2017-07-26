@@ -31,7 +31,7 @@ html, input, button {
   text-shadow: 1px 1px 1px #ffffff;
   border-radius: 2px;
   border: 1px solid $border-color;
-  background: linear-gradient($primary-gradient-1, $primary-gradient-2);
+  background: linear-gradient($primary-gradient-2, $primary-gradient-1);
   box-shadow: 0 0 5px rgba(0,0,0,0.3);
 }
 

@@ -5,36 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link rel="icon" href="favicon.ico">
   <title>solar demo</title>
-
-  <!-- cgui core CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet">
   <link href="solar.css" rel="stylesheet">
+  <link href="spacers.css" rel="stylesheet">
+
   <style>
-
-  .demo-title {
-    color: rgba(128,128,128,0.8);
-    font-family: Helvetica, Arial, Sans-Serif;
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-  }
-
-  .demo-title > small{
-    color: rgba(128,128,128,0.7)
-  }
-
+    * {font-family: 'Lato', sans-serif;}
+    .demo-title {
+      color: rgba(128,128,128,0.8);
+      font-family: Helvetica, Arial, Sans-Serif;
+      margin-top: 5rem;
+      margin-bottom: 2rem;
+    }
+    .demo-title > small{
+      color: rgba(128,128,128,0.7)
+    }
   </style>
-
 </head>
+
 <body style="min-height: 100vh;">
 
   <h3 class="demo-title">Container/Component <small>Standard container sample</small></h3>
 
   <div class="container">
-    <div class="component" style="padding:4rem;">
+    <div class="component p-2">
 
-      <div class="label">
-        Label sample
+      <div class="block p-1">
+        <div class="label">
+          Label sample
+        </div>
+      </div>
+
+      <div class="block p-1">
+        <div class="label">
+          Another label sample
+        </div>
       </div>
 
     </div>
@@ -43,12 +49,12 @@
 
   <h3 class="demo-title">Input <small>Input text sample</small></h3>
 
-  <input class="input" type="text" value="Input text sample">
+  <input class="input p-1" type="text" value="Input text sample">
 
 
   <h3 class="demo-title">Button <small>Button sample</small></h3>
 
-  <button class="button">Button</button>
+  <button class="button p-1">Button</button>
 
 
 </body>
