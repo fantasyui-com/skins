@@ -1,6 +1,6 @@
 {
   "name": "skins",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Library of Industry Standard CSS Designs",
   "main": "index.js",
   "scripts": {
