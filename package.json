@@ -24,6 +24,6 @@
     "postcss-color-function": "^4.0.0",
     "precss": "^2.0.0",
     "select-declarations": "^1.0.4",
-    "spacers": "^1.2.0"
+    "spacers": "^1.3.0"
   }
 }
