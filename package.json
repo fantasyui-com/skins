@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/fantasyui-com/skins#readme",
   "dependencies": {
-    "autoprefixer": "^7.1.2",
+    "autoprefixer": "^10.4.2",
     "photograph": "^1.0.1",
     "postcss": "^6.0.8",
     "postcss-color-function": "^4.0.0",
